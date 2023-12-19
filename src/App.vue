@@ -1,3 +1,16 @@
 <template>
-  <h1>Hello World!</h1>
+  <div>
+    <HomeView />
+  </div>
 </template>
+
+<script>
+import HomeView from './views/HomeView.vue'
+
+export default {
+  name: 'App',
+  components: {
+    HomeView
+  }
+}
+</script>
